@@ -8,15 +8,15 @@ For this project, I acted as a Cybersecurity Analyst on a security team for an o
 For the algorithm, I started off by assigning the "allow_list.txt" file name as a string to the import_file variable.</br></br>
                                                 
 <p align="center">
-<img src="https://i.imgur.com/QnMexuQ.png" height="80%" width="80%" alt="Open the file that contains the allow list"/>
+<img src="https://i.imgur.com/QnMexuQ.png" height="40%" width="40%" alt="Open the file that contains the allow list"/>
 <br />
 <br />
 </p>
 
-Then, I used a with statement to open the file:</br></br>
+Then, I used a with statement to open the file.</br></br>
 
 <p align="center">
-<img src="https://i.imgur.com/IZ1S2vE.png" height="80%" width="80%" alt="Open the file that contains the allow list"/>
+<img src="https://i.imgur.com/IZ1S2vE.png" height="60%" width="60%" alt="Open the file that contains the allow list"/>
 <br />
 <br />
 </p>
@@ -38,7 +38,7 @@ I used the .read() method to convert the file contents into a string for the var
 The .split() method was used to convert the ip_addresses string into a list. This was done in order to separate the the individual IP addresses into a formated list.<br/><br/>
 
 <p align="center">
-<img src="https://i.imgur.com/OF8HuwC.png" height="80%" width="80%" alt="Convert the string into a list"/>
+<img src="https://i.imgur.com/OF8HuwC.png" height="60%" width="60%" alt="Convert the string into a list"/>
 <br />
 <br />
 </p>
@@ -48,7 +48,7 @@ The .split() method was used to convert the ip_addresses string into a list. Thi
 A for loop is used to iterate through the ip_addresses list.<br/><br/>
 
 <p align="center">
-<img src="https://i.imgur.com/Bix4Ivp.png" height="80%" width="80%" alt="Iterate through the IP addresses list"/>
+<img src="https://i.imgur.com/Bix4Ivp.png" height="60%" width="60%" alt="Iterate through the IP addresses list"/>
 <br />
 <br />
 </p>
@@ -58,7 +58,7 @@ A for loop is used to iterate through the ip_addresses list.<br/><br/>
 A conditional statement was used to check if any of the addresses in the remove_list exist in the ip_addresses list. If an address is found to exist in the ip_addresses list and the remove_list then it is removed from the ip_addresses list.<br/><br/>
 
 <p align="center">
-<img src="https://i.imgur.com/hYY5ore.png" height="80%" width="80%" alt="Remove IP addresses that are on the remove list"/>
+<img src="https://i.imgur.com/hYY5ore.png" height="40%" width="40%" alt="Remove IP addresses that are on the remove list"/>
 <br />
 <br />
 </p>
@@ -76,7 +76,7 @@ The .join() method was used to take the ip_addresses list and turn it into a str
 The .open() function was used in write mode to open the "allow_list.txt" file. The reason for opening the file is to write the correct IP addresses to the file. The .open() function was used with the argument "w" which means the file is opened in write mode.</br></br>
 
 <p align="center">
-<img src="https://i.imgur.com/VPiPHkO.png" height="80%" width="80%" alt="Update the file with the revised list of IP addresses"/>
+<img src="https://i.imgur.com/VPiPHkO.png" height="60%" width="60%" alt="Update the file with the revised list of IP addresses"/>
 <br />
 <br />
 </p>
