@@ -13,11 +13,7 @@ I started off by assigning the "allow_list.txt" file name as a string to the imp
 <br />
 </p>
 
-In the screenshot, you will see the SQL query I used and its output. The query begins by selecting all columns from the log_in_attempts table. It then uses a WHERE clause with an AND operator to filter the results, showing all logon attempts that occurred after 18:00 and were unsuccessful.</br></br>
- 
-<h2>Retrieve Login Attempts on Specific Dates</h2>
-
-A suspicious event occurred on 2022-05-09. To investigate, I reviewed all login attempts from that day and the previous day. I used SQL filters to create a query that identified all login attempts on 2022-05-09 and 2022-05-08.</br></br>
+Then, I used a with statement to open the file:</br></br>
 
 <p align="center">
 <img src="https://i.imgur.com/IZ1S2vE.png" height="80%" width="80%" alt="Retrieve Login Attempts on Specific Dates"/>
@@ -27,7 +23,7 @@ A suspicious event occurred on 2022-05-09. To investigate, I reviewed all login 
 
 In the screenshot, you will see the SQL query I used and its output. The query begins by selecting all columns from the log_in_attempts table. It then uses a WHERE clause with an OR operator to filter the results, displaying all logon attempts that occurred on '2022-05-09' and '2022-05-08'.</br></br>
 
-<h2>Retrieve Login Attempts Outside of Mexico</h2>
+<h2>Read the file contents</h2>
 
 There was suspicious activity with login attempts, but the team determined that this activity didn't originate from Mexico. I needed to investigate login attempts that occurred outside of Mexico. I used SQL filters to create a query that identified all login attempts originating from outside of Mexico.</br></br> 
 
@@ -39,7 +35,7 @@ There was suspicious activity with login attempts, but the team determined that 
 
 In the screenshot, you will see the SQL query I used and its output. The query begins by selecting all columns from the log_in_attempts table. It then uses a WHERE clause with a NOT operator to filter the results, displaying all logon attempts that did not occur in Mexico.</br></br>
 
-<h2>Retrieve Employees in Marketing</h2>
+<h2>Convert the string into a list</h2>
 
 My team needed to perform security updates on specific employee machines in the Marketing department. I was responsible for gathering information on these machines, so I queried the employees table. I used SQL filters to create a query that identified all employees in the Marketing department across all offices in the East building.<br/><br/>
 
@@ -52,7 +48,7 @@ My team needed to perform security updates on specific employee machines in the 
 In the screenshot, you will see the SQL query I used and the output from that query. The query starts by selecting all columns from the employees table. Then it uses the WHERE clause with an AND operator to filter the results to output all of the employees in the Marketing department that work in offices in the East Building.</br></br>
 
 
-<h2>Retrieve Employees in Finance or Sales</h2>
+<h2>Iterate through the remove list</h2>
 
 My team needed to perform a different security update on machines for employees in the Sales and Finance departments. I used filters in SQL to create a query that identified all employees in the Sales or Finance departments.<br/><br/>
 
@@ -64,19 +60,19 @@ My team needed to perform a different security update on machines for employees 
 
 In the screenshot, you will see the SQL query I used and the output from that query. The query starts by selecting all columns from the employees table. Then it uses the WHERE clause with an OR operator to filter the results to output all of the employees in the Marketing department and the Finance department.</br></br>
 
-<h2>Retrieve All Employees Not in IT</h2>
+<h2>Remove IP addresses that are on the remove list</h2>
 
 My team needed to make one more update to employee machines. The employees who were in the Information Technology department already had this update, but employees in all other departments needed it. I used filters in SQL to create a query which identified all employees not in the IT department.<br/><br/>
 
 <p align="center">
-<img src="https://i.imgur.com/Bix4Ivp.png" height="80%" width="80%" alt="Retrieve All Employees Not in IT"/>
+<img src="https://i.imgur.com/Bix4Ivp.png" height="50%" width="50%" alt="Retrieve All Employees Not in IT"/>
 <br />
 <br />
 </p>
 
 In the screenshot, you will see the SQL query I used and the output from that query. The query starts by selecting all columns from the employees table. Then it uses the WHERE clause with an NOT operator to filter the results to output all of the employees not in the IT department.</br></br>
 
-<h2>Retrieve All Employees Not in IT</h2>
+<h2>Update the file with the revised list of IP addresses</h2>
 
 My team needed to make one more update to employee machines. The employees who were in the Information Technology department already had this update, but employees in all other departments needed it. I used filters in SQL to create a query which identified all employees not in the IT department.<br/><br/>
 
@@ -87,10 +83,6 @@ My team needed to make one more update to employee machines. The employees who w
 </p>
 
 In the screenshot, you will see the SQL query I used and the output from that query. The query starts by selecting all columns from the employees table. Then it uses the WHERE clause with an NOT operator to filter the results to output all of the employees not in the IT department.</br></br>
-
-<h2>Retrieve All Employees Not in IT</h2>
-
-My team needed to make one more update to employee machines. The employees who were in the Information Technology department already had this update, but employees in all other departments needed it. I used filters in SQL to create a query which identified all employees not in the IT department.<br/><br/>
 
 <p align="center">
 <img src="https://i.imgur.com/VPiPHkO.png" height="80%" width="80%" alt="Retrieve All Employees Not in IT"/>
