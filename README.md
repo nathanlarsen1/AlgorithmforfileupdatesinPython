@@ -85,5 +85,5 @@ The .write() function was used to write the changes to the "allow_list.txt" file
 
 <h2>Summary</h2>
 
-In this excerise, I demonstrated the use of Python used by a Cybersecurity Analyst. This example displayed how algorithms in Python can be used to perform several necessary functions to improve efficiency of daily tasks.
+In this excerise, I demonstrated the use of Python used by a Cybersecurity Analyst. This example displayed how algorithms in Python can be used to perform several necessary functions to improve accuracy and efficiency of daily tasks.
 
