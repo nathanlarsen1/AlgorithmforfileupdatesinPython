@@ -1,4 +1,4 @@
-<h1>Algorithm for file updates in Python</h1>
+<h1>Algorithm for File Updates in Python</h1>
 
 
 <h2>Project description</h2>
