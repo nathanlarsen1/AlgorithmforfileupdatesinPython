@@ -8,7 +8,7 @@ For this project, I acted as a Cybersecurity Analyst on a security team for an o
 I started off by assigning the "allow_list.txt" file name as a string to the import_file variable:.</br></br>
                                                 
 <p align="center">
-<img src="https://i.imgur.com/QnMexuQ.png" height="80%" width="80%" alt="Retrieve After Hours Failed Login Attempts"/>
+<img src="https://i.imgur.com/QnMexuQ.png" height="50%" width="50%" alt="Retrieve After Hours Failed Login Attempts"/>
 <br />
 <br />
 </p>
@@ -16,7 +16,7 @@ I started off by assigning the "allow_list.txt" file name as a string to the imp
 Then, I used a with statement to open the file:</br></br>
 
 <p align="center">
-<img src="https://i.imgur.com/IZ1S2vE.png" height="80%" width="80%" alt="Retrieve Login Attempts on Specific Dates"/>
+<img src="https://i.imgur.com/IZ1S2vE.png" height="50%" width="50%" alt="Retrieve Login Attempts on Specific Dates"/>
 <br />
 <br />
 </p>
@@ -28,7 +28,7 @@ In the screenshot, you will see the SQL query I used and its output. The query b
 There was suspicious activity with login attempts, but the team determined that this activity didn't originate from Mexico. I needed to investigate login attempts that occurred outside of Mexico. I used SQL filters to create a query that identified all login attempts originating from outside of Mexico.</br></br> 
 
 <p align="center">
-<img src="https://i.imgur.com/vGlvRmr.png" height="80%" width="80%" alt="Retrieve Login Attempts Outside of Mexico"/>
+<img src="https://i.imgur.com/vGlvRmr.png" height="50%" width="50%" alt="Retrieve Login Attempts Outside of Mexico"/>
 <br />
 <br />
 </p>
@@ -40,7 +40,7 @@ In the screenshot, you will see the SQL query I used and its output. The query b
 My team needed to perform security updates on specific employee machines in the Marketing department. I was responsible for gathering information on these machines, so I queried the employees table. I used SQL filters to create a query that identified all employees in the Marketing department across all offices in the East building.<br/><br/>
 
 <p align="center">
-<img src="https://i.imgur.com/OF8HuwC.png" height="80%" width="80%" alt="Retrieve Employees in Marketing"/>
+<img src="https://i.imgur.com/OF8HuwC.png" height="50%" width="50%" alt="Retrieve Employees in Marketing"/>
 <br />
 <br />
 </p>
@@ -53,7 +53,7 @@ In the screenshot, you will see the SQL query I used and the output from that qu
 My team needed to perform a different security update on machines for employees in the Sales and Finance departments. I used filters in SQL to create a query that identified all employees in the Sales or Finance departments.<br/><br/>
 
 <p align="center">
-<img src="https://i.imgur.com/hYY5ore.png" height="80%" width="80%" alt="Retrieve Employees in Finance or Sales"/>
+<img src="https://i.imgur.com/hYY5ore.png" height="50%" width="50%" alt="Retrieve Employees in Finance or Sales"/>
 <br />
 <br />
 </p>
@@ -77,7 +77,7 @@ In the screenshot, you will see the SQL query I used and the output from that qu
 My team needed to make one more update to employee machines. The employees who were in the Information Technology department already had this update, but employees in all other departments needed it. I used filters in SQL to create a query which identified all employees not in the IT department.<br/><br/>
 
 <p align="center">
-<img src="https://i.imgur.com/sLpgJFv.png" height="80%" width="80%" alt="Retrieve All Employees Not in IT"/>
+<img src="https://i.imgur.com/sLpgJFv.png" height="50%" width="50%" alt="Retrieve All Employees Not in IT"/>
 <br />
 <br />
 </p>
@@ -85,7 +85,7 @@ My team needed to make one more update to employee machines. The employees who w
 In the screenshot, you will see the SQL query I used and the output from that query. The query starts by selecting all columns from the employees table. Then it uses the WHERE clause with an NOT operator to filter the results to output all of the employees not in the IT department.</br></br>
 
 <p align="center">
-<img src="https://i.imgur.com/VPiPHkO.png" height="80%" width="80%" alt="Retrieve All Employees Not in IT"/>
+<img src="https://i.imgur.com/VPiPHkO.png" height="50%" width="50%" alt="Retrieve All Employees Not in IT"/>
 <br />
 <br />
 </p>
