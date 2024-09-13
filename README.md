@@ -4,6 +4,14 @@
 <h2>Project description</h2>
 For this project, I acted as a Cybersecurity Analyst on a security team for an organization. One of my job roles involved maintaining an allow list of IP addresses that controlled access to resticted content. The "allow_list.txt" file identifies the IP addresses. A separate remove list contains IP addresses that no longer have access to this content. I created an algorithm that automates updating of the "allow_list.txt" file. It removes any of the IP addresses that it should not contain. <br/><br/>
 
+<h2>Language and Applications</h2>
+
+- <b>Python</b>
+
+<h2>Environments Used </h2>
+
+- <b>Python scripting environment</b></br></br>
+
 <h2>Open the File That Contains the Allow List</h2>
 For the algorithm, I started off by assigning the "allow_list.txt" file name as a string to the import_file variable.</br></br>
                                                 
