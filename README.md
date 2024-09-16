@@ -12,7 +12,9 @@ For this project, I acted as a Cybersecurity Analyst on a security team for an o
 
 - <b>Python scripting environment</b></br></br>
 
-<h2>Open the File That Contains the Allow List</h2>
+<h2>Project Walkthrough</h2>
+
+<h3>1. Open the file That contains the allow list</h3>
 For the algorithm, I started off by assigning the "allow_list.txt" file name as a string to the import_file variable.</br></br>
                                                 
 <p align="center">
@@ -31,7 +33,7 @@ Then, I used a with statement to open the file.</br></br>
 
 In the algorithm I created, the with statement is used with the .open() function in read mode to open the allow list file to read it. The reason for opening the file is to access the IP addresses stored in the file. The .open() function was used with the argument "r" which means the file is opened in read-only mode.</br></br>
 
-<h2>Read the File Contents</h2>
+<h3>2. Read the file contents</h3>
 
 I used the .read() method to convert the file contents into a string for the variable ip_addresses.</br></br> 
 
@@ -41,7 +43,7 @@ I used the .read() method to convert the file contents into a string for the var
 <br />
 </p>
 
-<h2>Convert the String into a List</h2>
+<h3>3. Convert the string into a list</h3>
 
 The .split() method was used to convert the ip_addresses string into a list. This was done in order to separate the the individual IP addresses into a formated list.<br/><br/>
 
@@ -51,7 +53,7 @@ The .split() method was used to convert the ip_addresses string into a list. Thi
 <br />
 </p>
 
-<h2>Iterate Through the IP Addresses List</h2>
+<h3>4. Iterate through the IP addresses list</h3>
 
 A for loop is used to iterate through the ip_addresses list.<br/><br/>
 
@@ -61,7 +63,7 @@ A for loop is used to iterate through the ip_addresses list.<br/><br/>
 <br />
 </p>
 
-<h2>Remove IP Addresses That Are on the Remove List</h2>
+<h3>5. Remove IP addresses that are on the remove list</h3>
 
 A conditional statement was used to check if any of the addresses in the remove_list exist in the ip_addresses list. If an address is found to exist in the ip_addresses list and the remove_list then it is removed from the ip_addresses list.<br/><br/>
 
@@ -71,7 +73,7 @@ A conditional statement was used to check if any of the addresses in the remove_
 <br />
 </p>
 
-<h2>Update the File with the Revised List of IP Addresses</h2>
+<h3>6. Update the file with the revised list of IP addresses</h3>
 
 The .join() method was used to take the ip_addresses list and turn it into a string prepatory to saving it to the file.<br/><br/>
 
@@ -91,7 +93,7 @@ The .open() function was used in write mode to open the "allow_list.txt" file. T
 
 The .write() function was used to write the changes to the "allow_list.txt" file.</br></br>
 
-<h2>Summary</h2>
+<h3>Summary</h3>
 
 In this excerise, I demonstrated the use of Python used by a Cybersecurity Analyst. This example displayed how algorithms in Python can be used to perform several necessary functions to improve accuracy and efficiency of daily tasks.
 
